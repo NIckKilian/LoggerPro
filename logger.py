@@ -7,6 +7,7 @@ import qlogging, re
 # spit out results of logfiles in a certain amount of time default 1 week (recentLogs)
 
 Qlogger = qlogging.get_logger(level='debug')
+#days back for how much of the log checked
 daysBack = (datetime.today() - timedelta(days=17)).strftime("%Y/%m/%d")
 dates = datetime.today()
 
