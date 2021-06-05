@@ -1,0 +1,7 @@
+
+use('LoggerDB');
+db.LogSettings.insert([{ '_id': 1,
+ 'LogName': 'NasLogins',
+  'Location': '/var/log',
+  'fileName': 'auth.log',
+  'date': '2021-05-28T08:00:00Z'}]);
